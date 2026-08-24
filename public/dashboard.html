@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Moved — osu!dz admin</title>
+    <meta http-equiv="refresh" content="0; url=/vote" />
+    <link rel="stylesheet" href="/Bountiestyl.css" />
+  </head>
+  <body>
+    <!--
+      The old dashboard called /api/admin/login and sent an x-admin-password
+      header — neither ever existed on the server, so it could not work.
+      Round management now lives in the voting app: sign in with osu! from an
+      account listed in ADMIN_OSU_IDS and use "Manage rounds".
+
+      This file only exists to redirect old bookmarks. Safe to delete.
+    -->
+    <div class="container">
+      <div class="header">
+        <h1>Admin moved</h1>
+        <p>
+          Round management is now part of the voting page. Redirecting you to
+          <a href="/vote">/vote</a> — sign in with osu! and choose “Manage rounds”.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
